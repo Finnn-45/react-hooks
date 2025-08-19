@@ -1,0 +1,91 @@
+/* App.css */
+
+/* Reset gaya default */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Container utama */
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Judul */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+/* Setiap section */
+section {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Tombol */
+button {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Input */
+input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* List */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 6px 0;
+  padding: 6px 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Todo List: todo selesai dicoret */
+li span {
+  cursor: pointer;
+}
+
+li span:hover {
+  text-decoration: underline;
+}
+
+/* Tema dark/light */
+.dark {
+  background: #333 !important;
+  color: white !important;
+}
+
+.light {
+  background: #fff !important;
+  color: black !important;
+}
